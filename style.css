@@ -1,0 +1,67 @@
+/******* set up *********/
+
+:root{
+--clr-white: hsl(0, 0%, 100%);
+--clr-Light-gray: hsl(212, 45%, 89%);
+--clr-Grayish-blue: hsl(220, 15%, 55%);
+--clr-Dark-blue: hsl(218, 44%, 22%);
+}
+*,
+*::before,
+*::after{
+
+    padding:0;
+    margin:0;
+
+}
+
+
+
+html{
+    font-size:62.5%
+}
+
+img{
+    max-width:100%;
+    display:block;
+
+
+}
+
+/***** style *****/
+body{
+    background-color:var(--clr-Light-gray);
+}
+main{
+    display:flex;
+    justify-content:center;
+    align-items:Center;
+    min-height:95vh;
+}
+
+
+.card{
+    max-width:32rem;
+  
+padding:1rem;
+border-radius:2rem;
+background-color:var(--clr-white);
+
+}
+
+.card__img{
+    border-radius:1rem;
+
+}
+.card__content{
+    padding:2rem 0.5rem;
+    text-align:center;
+}
+
+.card__title{
+    font-size:2rem;
+}
+
+.card__txt{
+    font-size:1.6rem;
+}
