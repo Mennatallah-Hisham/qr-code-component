@@ -65,3 +65,6 @@ background-color:var(--clr-white);
 .card__txt{
     font-size:1.6rem;
 }
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
